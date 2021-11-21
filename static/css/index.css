@@ -1,0 +1,154 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+body{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.k-body{
+	/* background: #42494F; */
+}
+.k-center{
+	width:400px;  
+	height:240px;  
+	position:absolute;  
+	left:50%;  
+	top:50%;  
+	margin:-120px 0 0 -200px;
+	background-color: rgba(255,255,255,0.7);
+    border-width: 0;
+    box-shadow: 0 0 2px rgba(255,255,255,0.6) inset;
+}
+.k-div-up{
+	width:100px; 
+	height:100px; 
+	border-radius:50%; 
+	overflow:hidden;
+	margin: auto;
+	background: white;
+	margin-top: 30px;
+}
+.k-img{
+	width: 100px;
+	height: 100px;
+	opacity: 1;
+	cursor: pointer;
+	transition: all 0.8s;
+}
+.k-img:hover{
+	transition: all 0.8s;
+	opacity: 0.8;
+	transform: scale(1.15);
+}
+.k-div-font{
+	text-align: center;
+	color: #3498db;
+}
+.k-div-p1{
+	margin: 10px 0 2px 0;
+	font-size: 1rem;
+}
+.k-div-p2{
+	margin: 5px 0 2px 0;
+	font-size: 0.9rem;
+	color: gray;
+}
+.k-div-center{
+	padding: 8px 60px;
+}
+.k-hr{
+	background-color: gray;
+	height: 1px;
+	border-width: 0px;
+}
+.k-div-center-short{
+	padding: 8px 100px;
+}
+.k-hr-short{
+	background-color: gray;
+	height: 1px;
+	border-width: 0px;
+}
+.parent{   
+	display: flex;
+	justify-content: center;
+}   
+.child{
+	flex:1;
+}
+.child span{
+	transition: all 0.8s;
+	color: #3498db;
+	font-size: 0.8rem;
+	font-weight: bold;
+	cursor: pointer;
+}
+.child span:hover{
+	transition: all 0.8s;
+	color: red;
+	transform: scale(2);
+	background-color: #AAAAAA;
+	padding: 5px;
+}
+
+p{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #3C3C3C;
+	font-weight: bold;
+}
+video{
+	height: 100%;
+	width: 100%;
+	object-fit:fill;
+}
+.k-coding-cnzz{
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	bottom: 50px;
+	opacity: 0.8;
+	display: none;
+}
+.k-coding-net{
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	bottom: 10px;
+	opacity: 0.8;
+	display: none;
+}
+.k-coding-net p{
+	font-size: 6px;
+	margin: 0;
+}
+.k-busuanzi{
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	bottom: 27px;
+	opacity: 0.8;
+	display: none;
+}
+.k-busuanzi p,span{
+	font-size: 6px;
+	margin: 0;
+}
+#busuanzi_value_site_pv{
+	color: black;
+	font-weight: bold;
+}
+.blur {    
+    -webkit-filter: blur(0px); /* Chrome, Opera */
+       -moz-filter: blur(0px);
+        -ms-filter: blur(0px);    
+            filter: blur(0px);    
+}
